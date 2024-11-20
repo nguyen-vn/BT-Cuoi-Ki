@@ -6,38 +6,42 @@
 }
 
 body {
-    font-family: "Inter", sans-serif;
+    font-family: "Noto Sans", sans-serif;
     font-optical-sizing: auto;
 }
 
 /*CSS Global*/
 .contaner {
-    max-width: 1920;
+    max-width: 1920px;
     margin: auto;
 }
 
 .header-top-slide-1 {
-    width: 1438;
+    width: max;
+    height: 200px;
+    position: relative;
     background-color: pink;
-    height: 945;
 }
 
 .header-top-slide-1-wrap {
     display: flex;
 }
 
-.search-icon {
+.search-icon button{
     width: 15%;
-    height: 945;
+    height: 66px;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    size-adjust: 20%;
 }
 
 .brand-name {
-    height: 945;
-    display: flex;
-    width: 50%;
-    align-items: center;
+    width: 45%; 
+    height: 945px;
+    display: absolute;
+    text-align: center;
+    left: 35%;
+    font-weight: bold;
 }
 
 .brand-name a {
@@ -50,10 +54,32 @@ body {
   font-weight: bold;
   text-transform: uppercase;
   text-align: center;
+  position:absolute;
+  left: 50%;
 }
 
 .icon-user {
-
-}
+    display: flex;
+    height: 66px;
+    align-items: center;
+  }
   
+  .icon-user li {
+    list-style: none;
+    margin-left: 15px;
+    padding-left: 15px;
+    border-left: 1px solid #fff;
+    position: relative;
+  }
+  
+  .icon-user li:first-child {
+    border-left: none;
+  }
+  
+  .icon-user li i {
+    color: black;
+    font-size: 18px;
+  }
+
+
   
