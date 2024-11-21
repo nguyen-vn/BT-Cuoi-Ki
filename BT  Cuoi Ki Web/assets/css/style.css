@@ -110,3 +110,35 @@ body {
   color: #cf3424;
 }
   
+.content1 {
+  max-width: 50%;
+}
+
+.content1 h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.content1 p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.content1 button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.content1 button:hover {
+  background-color: #555;
+}
+
+.content1-image img {
+  max-width: 100%;
+  border-radius: 10px;
+}
